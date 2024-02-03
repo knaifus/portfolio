@@ -1,0 +1,88 @@
+.cv-download {
+    /* background: rgba(0, 0, 0, 0.2); */
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+    border: solid 1px;
+    border-color:lightgray;
+    padding: 10px 20px !important;
+    line-height: normal;
+    font-weight: 500;
+    text-transform: none !important;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer; }
+
+    .cv-download:hover, 
+    .cv-download:active, 
+    .cv-download:focus {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .inline-link {
+      color:darkslateblue;
+      font-weight: 600;
+    }
+    .inline-link:hover {
+      color:lightslategray;
+    }
+
+    .portfolio-item-link a {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 500;
+      color: #3fb5ff; }
+  
+    .portfolio-item-link a:hover {
+      color: #b8d5e6; }
+
+
+    .portfolio-img-hover:hover {
+          background: rgba(255, 255, 255, 1);
+          opacity: .8;
+          transition: all .5s;
+      }
+
+    .item-hover {
+        transition: box-shadow .3s;
+        }
+      
+    .item-hover:hover {
+      box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+      transition: all .5s;
+    }
+
+/* The base state of the animate-box, hidden initially */
+.animate-box {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .7s ease-out, transform .7s ease-out;
+}
+
+/* When the box is within the viewport and should be animated */
+.animate-box.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vcard {
+  align-content: end;
+  display: inline-grid;
+}
+
+
+
+.cont-link a {
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;}
+
+.cont-link a:hover {
+  color: #0D6EFD  }
+
+
+
